@@ -1,0 +1,139 @@
+#hero-region{
+    background-color: #CEF1FF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;   
+}
+#hero-section{
+    display: flex;
+    background-color: #CEF1FF;
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+}
+
+#hero-section #hero-text{
+   display: flex;
+   flex-direction: column;
+   gap: 1.4rem;
+   width: 60%;
+   justify-content: center;
+   align-items:flex-start;
+   padding-left: 10em;
+}
+
+
+
+#hero-section img{
+    width: auto;
+    height: 100%;
+    margin: auto;
+}
+
+#hero-section #hero-category{
+    background-color: #043ac2 ;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    width: 7rem;
+    align-self: first baselin;
+    height: 2em;
+    border-radius: 13px;
+  
+}
+#hero-section #hero-category:hover{
+    border-bottom: 33px solid rgb(112, 184, 243);
+    background-color: rgb(2, 69, 252);
+    transition:border-bottom 1s ease;
+    transform: scale(1.1);
+    color: rgb(3, 2, 99);    
+}
+
+#hero-section #hero-text #hero-sale-1{
+    color: #0231D9;
+    font-weight: 900;
+    font-size: 3.8em;
+
+}
+#hero-sale-2{
+    font-weight: 600;
+    font-size: 2.8em;
+}
+#hero-sale-3{
+    color: rgb(166, 166, 168);
+    font-weight: 500;
+    font-size: 1.3em;
+    
+}
+
+
+
+/*-------Get Started-------*/
+
+#get-started{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    background-color: white;    
+}
+
+#get-started #get-started-paras{
+    display: flex;
+    flex-direction: column;
+    width: 50%;   
+}
+
+#get-started #get-started-paras #get-started-steps{
+    margin: auto;
+    width: 50%;
+}
+p#g-s-para1{
+    margin: auto;
+    width: 70%;
+    font-size: 1em;
+    font-weight: 700;
+}
+h2#g-s-slogan{
+    margin: auto;
+    width: 50%;
+    font-size: 2em;
+    font-weight: 900;
+    color: #042086;
+}
+p#g-s-para2{
+    margin: auto;
+    width: 70%;
+    font-size: 1em;
+    font-weight: 700;
+}
+div#get-started-steps{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+p#parast{
+    align-self: center;
+    width: 70%;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+div#get-started-steps ul{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 1.1em;
+    font-weight: 700;
+    gap: 2rem;
+}
+div #get-started-steps ul li{
+    display: flex;
+}
+div #get-started-steps ul li i{ 
+    color: #042086;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+}

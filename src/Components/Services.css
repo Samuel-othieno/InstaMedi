@@ -1,0 +1,76 @@
+div #service-section{
+    background-color: #d9eff4;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+div #serv-banner{
+    width: 100%;
+    background-color:  #0C90DA;
+    height: 50%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+div #ser-banner-text{
+   margin: auto;
+   width: 50%;
+}
+div #ser-banner-text h2{
+    font-size: 3rem;
+    font-weight: 700;
+    width: 90%;
+    margin: auto;
+      
+}
+div #ser-banner-text p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+    margin: auto;
+    width: 90%;
+}
+
+div #serv-banner img{
+    height: 95%;
+    width: auto ;
+    margin: auto;
+}
+div #serv-items{
+    background-color: #d9eff4;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+div #serv-items h1{
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: rgb(8, 8, 128);
+    width: 70%;
+    margin: auto;
+}
+div #cat-question{
+    color: rgb(141, 141, 161);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+    font-size: 1.5rem;
+}
+
+#tableserv{
+    width: 75%;
+    border-spacing: 10px;
+    margin: auto;
+}
+#tableserv td{
+    color: rgb(0, 0, 10);
+    font-size: 1.2em;
+    text-align: left;
+    padding: 0.5rem;
+    font-weight: 700;
+    width: 0.5em;
+}
+#tableserv td:hover {background-color: #cbd3db;}
