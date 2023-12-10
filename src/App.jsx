@@ -10,6 +10,8 @@ import DoctorSignUp from "./Components/DoctorSignUp";
 import DoctorLogIn from "./Components/DoctorLogIn";
 import LogInPage from "./Components/LogInPage";
 import SignUpPage from "./Components/SignUpPage";
+import { UsersRolesTable } from "./Components/Providers/UsersRolesTable";
+import Booking from "./Components/Booking";
 
 
 
@@ -24,6 +26,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contactcard" element={<ContactCard />} />
           <Route path="/login" element={<LogInPage />} />
+          <Route path="/Booking" element={<Booking />} />
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/doctorlogin" element={<DoctorLogIn />} />
           <Route path="/doctorsignup" element={<DoctorSignUp />} />

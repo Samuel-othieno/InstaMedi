@@ -1,5 +1,6 @@
 import { Title, SimpleGrid, Text, Button, ThemeIcon, Grid, rem } from '@mantine/core';
 import { IconCloudComputing, IconPill, IconMessages, IconDental } from '@tabler/icons-react';
+import { Link } from 'react-router-dom';
 import classes from './FeaturesTitle.module.css';
 
 const features = [
@@ -25,12 +26,7 @@ const features = [
     description:
       'Prioritize the security and privacy of patient information, ensuring compliance with healthcare regulations. Secure messaging and video conferencing tools protect the confidentiality of medical discussions.',
   },
-  {
-    icon: IconMessages,
-    title: 'Secure Communication',
-    description:
-      'Prioritize the security and privacy of patient information, ensuring compliance with healthcare regulations. Secure messaging and video conferencing tools protect the confidentiality of medical discussions.',
-  },
+ 
 ];
 
 export function FeaturesTitle() {
@@ -56,6 +52,16 @@ export function FeaturesTitle() {
   return (
     <div className={classes.wrapper}>
       <Grid gutter={80}>
+
+
+      <Grid.Col span={{ base: 12, md: 7 }}>
+          <Link to="/providers">
+          <SimpleGrid cols={{ base: 1, md: 2 }} spacing={30}>
+            {items}
+          </SimpleGrid>
+          </Link>
+        </Grid.Col>
+
         <Grid.Col span={{ base: 12, md: 5 }} >
           <Title className={classes.title} order={2}>
           Book hassle-free online doctor appointments. <br/>
@@ -64,24 +70,23 @@ export function FeaturesTitle() {
           <Text c="dimmed" >
           Online doctor consultation from the comfort of your home. 
           Find and book appointment with doctors near you.
-          <br/>Welcome to InstaMedi, your comprehensive telehealth platform. We bring quality healthcare to your fingertips, making it easy and convenient to connect with experienced doctors from the comfort of your home.
+          <br/>Welcome to InstaMedi, your comprehensive telehealth 
+          platform. We bring quality healthcare to your fingertips, making it 
+          easy and convenient to connect with experienced doctors from the 
+          comfort of your home.
+          <br/>Diverse Specialties:
+From primary care to specialized consultations, InstaMedi offers a wide array of medical specialties. Whether you need routine check-ups or expert advice, our platform connects you with healthcare professionals tailored to your specific needs.
+<br/>
+
+
+Prescriptions and Follow-Up Care:
+Beyond consultations, InstaMedi facilitates the prescription process and ensures continuity of care with follow-up appointments. Your health journey is seamlessly integrated into our platform.
           </Text>
 
-          <Button
-            variant="gradient"
-            gradient={{ deg: 133, from: 'blue', to: 'cyan' }}
-            size="lg"
-            radius="md"
-            mt="xl"
-          >
-            Get started
-          </Button>
         </Grid.Col>
-        <Grid.Col span={{ base: 12, md: 7 }}>
-          <SimpleGrid cols={{ base: 1, md: 2 }} spacing={30}>
-            {items}
-          </SimpleGrid>
-        </Grid.Col>
+
+
+
       </Grid>
     </div>
   );

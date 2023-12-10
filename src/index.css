@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.carousel:hover .carouselControls {
+    opacity: 1;
+  }
+  
+  
+  *{
+      padding: 0;
+      margin: 5px;
+      margin-right: 0%;
+      box-sizing: border-box;
+      text-decoration: none;
+  
+  }
+  
+  
+  body{
+      background-color: #fcfcfc;
+      height: 100vh;
+      width: 100%;
+  }
