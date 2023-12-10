@@ -9,8 +9,9 @@ function ContactCard() {
         <>
         <div className="pt-5 pr-5 pb-5 pl-5">
            <HeroImageBackground />
-           <GetInTouchSimple/>
-            <FaqSimple/>
+           <FaqSimple/>
+           
+            
            
             </div>
         </>

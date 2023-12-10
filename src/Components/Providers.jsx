@@ -1,4 +1,21 @@
-// App.js
+import React from "react";
+import { UsersRolesTable } from "./Providers/UsersRolesTable";
+import { HeroBullets2 } from "./Providers/HeroBullets2";
+
+function Providers() {
+    return (
+        <>
+        <HeroBullets2 />
+        <UsersRolesTable/>
+        </>
+    );
+}
+
+export default Providers;
+
+
+
+/*// App.js
 import React, { useState } from "react";
 import Providers from "./Providers";
 import SignUpPage from "./SignUpPage";
@@ -63,3 +80,4 @@ function App() {
 }
 
 export default App;
+*/
