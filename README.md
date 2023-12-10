@@ -25,10 +25,19 @@ InstaMedi has the following features:
 ## Technologies
 InstaMedi is built using the following technologies:
 * React, a JavaScript library for building user interfaces
-* Vercel or Netlify, platforms for deploying and hosting web applications
 * Tailwind, a CSS library
 * Mantine, a React component library 
-* Vite, React Framework
+* Vite, a React Framework
+
+## Deployment
+We are using Vercel or Netlify for deploying the web application to the web. You can access the live version of the web application here:
+
+* Vercel * Netlify
+
+## Project Management
+We are using Trello as our project management tool. We are creating and assigning tasks, tracking the progress, and collaborating with each other using Trello. You can view our Trello board here:
+
+Trello
 
 ## Installation
 To install and run InstaMedi locally, follow these steps:
