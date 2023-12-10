@@ -28,16 +28,18 @@ InstaMedi is built using the following technologies:
 * Tailwind, a CSS library
 * Mantine, a React component library 
 * Vite, a React Framework
+* GitHub: A platform for hosting and collaborating on code
 
 ## Deployment
 We are using Vercel or Netlify for deploying the web application to the web. You can access the live version of the web application here:
 
-* Vercel * Netlify
+* Vercel
+* Netlify
 
 ## Project Management
 We are using Trello as our project management tool. We are creating and assigning tasks, tracking the progress, and collaborating with each other using Trello. You can view our Trello board here:
 
-Trello
+* Trello
 
 ## Installation
 To install and run InstaMedi locally, follow these steps:
@@ -63,7 +65,6 @@ InstaMedi is an open-source project, and we welcome contributions from anyone wh
 - Push your changes to your forked repository using git push origin feature/your-feature or git push origin bugfix/your-bugfix
 - Create a pull request from your forked repository to the original repository
 - Wait for your pull request to be reviewed and merged
-
 
 ## Team
 InstaMedi is developed by a team of four members, namely:
