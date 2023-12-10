@@ -4,12 +4,12 @@ InstaMedi is a medical web application that aims to bridge the gap between patie
 ## Motivation
 The motivation behind InstaMedi is to deliver medical services to the civilians of Uganda at much cheaper costs, efficiently, and also eradicate some of the challenges the medical system of Uganda has not been able to put right. Some of these challenges include:
 
--- Lack of access to quality and affordable health care, especially in rural areas
--- Long waiting times and queues at health facilities
--- Inadequate and outdated medical equipment and infrastructure
--- Shortage of qualified and skilled health workers
--- High prevalence of communicable and non-communicable diseases
---Low awareness and utilization of preventive and promotive health services
+- Lack of access to quality and affordable health care, especially in rural areas
+- Long waiting times and queues at health facilities
+- Inadequate and outdated medical equipment and infrastructure
+- Shortage of qualified and skilled health workers
+- High prevalence of communicable and non-communicable diseases
+- Low awareness and utilization of preventive and promotive health services
 
 InstaMedi aims to address these challenges by providing a platform where patients can easily and conveniently connect with doctors, get diagnosis and treatment, pay for their services, and access reliable and relevant health information.
 
@@ -38,26 +38,26 @@ To install and run InstaMedi locally, follow these steps:
 ## Usage
 To use InstaMedi, follow these steps:
 
-Sign up as a user or a doctor using your email and password
-Log in using your credentials
-Choose the service you want to access from the menu
-Follow the instructions on the screen
-Contribution
-InstaMedi is an open-source project, and we welcome contributions from anyone who shares our vision and mission. If you want to contribute to InstaMedi, please follow these steps:
+1. Sign up as a user or a doctor using your email and password
+2. Log in using your credentials
+3. Choose the service you want to access from the menu
+4. Follow the instructions on the screen
 
-Fork the repository from GitHub
-Create a new branch for your feature or bug fix using git checkout -b feature/your-feature or git checkout -b bugfix/your-bugfix
-Make your changes and commit them using git commit -m "Your message"
-Push your changes to your forked repository using git push origin feature/your-feature or git push origin bugfix/your-bugfix
-Create a pull request from your forked repository to the original repository
-Wait for your pull request to be reviewed and merged
-License
+## Contribution
+InstaMedi is an open-source project, and we welcome contributions from anyone who shares our vision and mission. If you want to contribute to InstaMedi, please follow these steps:
+- Fork the repository from GitHub
+- Create a new branch for your feature or bug fix using git checkout -b feature/your-feature or git checkout -b bugfix/your-bugfix
+- Make your changes and commit them using git commit -m "Your message"
+- Push your changes to your forked repository using git push origin feature/your-feature or git push origin bugfix/your-bugfix
+- Create a pull request from your forked repository to the original repository
+- Wait for your pull request to be reviewed and merged
+
 
 ## Team
 InstaMedi is developed by a team of four members, namely:
 
-Samuel Douglas Othieno - Team lead and user-interface developer
-Kafuluma Joachim - User and doctor sign up and login pages designer
+1. Samuel Douglas Othieno - Team lead and user-interface developer
+2. Kafuluma Joachim - User and doctor sign up and login pages designer
 
 ### Contact
 If you have any questions, feedback, or suggestions, please feel free to contact us at codeninjas@gmail.com. We would love to hear from you.
