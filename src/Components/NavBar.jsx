@@ -13,9 +13,9 @@ function NavBar() {
         <div id="nav-links" className="hidden md:flex items-center space-x-4">
           <ul id="links" className="flex space-x-4">
             <li><Link to='/'>Home</Link></li>
-            <li><Link to='providers'>Providers</Link></li>
+            <li><Link to='providers'>GetDoctor</Link></li>
             <li><Link to='services'>Services</Link></li>
-            <li><Link to='contactcard'>Contact</Link></li>
+            <li><Link to='contactcard'>FAQS</Link></li>
           </ul>
         </div>
 

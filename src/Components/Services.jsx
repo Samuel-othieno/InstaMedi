@@ -9,8 +9,9 @@ function Services() {
     return (
         <>
            <HeroImageRight/>
-           <FeaturesGrid/>
            <ArticlesCardsGrid/>
+           <FeaturesGrid/>
+          
            
            
         </>
