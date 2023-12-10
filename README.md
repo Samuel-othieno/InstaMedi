@@ -32,7 +32,7 @@ InstaMedi is built using the following technologies:
 
 ## Installation
 To install and run InstaMedi locally, follow these steps:
-- Clone the repository from GitHub using git clone https://github.com/CodeNinjas/InstaMedi.git
+- Clone the repository from GitHub using git clone https://github.com/samuel-othieno/InstaMed
 - Navigate to the project directory using cd InstaMedi
 - Install the dependencies using npm install
 - Start the development server using npm start
@@ -63,4 +63,8 @@ InstaMedi is developed by a team of four members, namely:
 2. Kafuluma Joachim - User and doctor sign up and login pages designer
 
 ### Contact
-If you have any questions, feedback, or suggestions, please feel free to contact us at codeninjas@gmail.com. We would love to hear from you.
+If you have any questions, feedback, or suggestions, please feel free to contact us at: 
+* Samuel Othieno: douglasothieno@gmail.com
+* Kafuluma Joachim: kafulumajoachim@gmail.com
+
+We would love to hear from you.
