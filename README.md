@@ -24,8 +24,8 @@ InstaMedi has the following features:
 
 ## Technologies
 InstaMedi is built using the following technologies:
-** React, a JavaScript library for building user interfaces
-** Vercel or Netlify, platforms for deploying and hosting web applications
+* React, a JavaScript library for building user interfaces
+* Vercel or Netlify, platforms for deploying and hosting web applications
 
 ## Installation
 To install and run InstaMedi locally, follow these steps:
