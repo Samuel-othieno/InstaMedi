@@ -26,6 +26,9 @@ InstaMedi has the following features:
 InstaMedi is built using the following technologies:
 * React, a JavaScript library for building user interfaces
 * Vercel or Netlify, platforms for deploying and hosting web applications
+* Tailwind, a CSS library
+* Mantine, a React component library 
+* Vite, React Framework
 
 ## Installation
 To install and run InstaMedi locally, follow these steps:
