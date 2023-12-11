@@ -1,29 +1,52 @@
-import React, { useState } from 'react';
-import { useDisclosure } from '@mantine/hooks';
-import { Modal, Button, TextInput, Text, Title, Select } from '@mantine/core';
+import React, { useState } from "react";
+import { useDisclosure } from "@mantine/hooks";
+import { Modal, Button, TextInput, Text, Title, Select } from "@mantine/core";
+import "./Booking.css";
+import emailjs from '@emailjs/browser';
 
 function Booking() {
   const [opened, { open, close }] = useDisclosure(false);
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [preferredDate, setPreferredDate] = useState("");
+  const [preferredTime, setPreferredTime] = useState("");
+  const [healthSpecialty, setHealthSpecialty] = useState("");
 
-  // State variables for form inputs
-  const [fullName, setFullName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
-  const [preferredDate, setPreferredDate] = useState('');
-  const [preferredTime, setPreferredTime] = useState('');
-  const [healthSpecialty, setHealthSpecialty] = useState('');
+  const handleBooking = (e) => {
+    e.preventDefault();
 
-  const handleBooking = () => {
-    // Perform booking logic here
-    // You can send data to a server, update state, etc.
-    // For now, let's just close the modal
-    close();
+    const ModalData = {
+      fullName: fullName,
+      email: email,
+      phoneNumber: phoneNumber,
+      preferredDate: preferredDate,
+      preferredTime: preferredTime,
+      healthSpecialty: healthSpecialty,
+    };
+    emailjs
+      .send(
+        "service_m93uxom",
+        "template_ya1c8ce",
+        ModalData,
+        "zURqvkfNFGbS0_327"
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+        },
+        (error) => {
+          console.log("FAILED...", error);
+        }
+      );
+     
+     
+      e.target.reset()
   };
 
   return (
     <>
       <Modal opened={opened} onClose={close} title="Book an Appointment">
-        {/* Modal content */}
         <Title order={4}>Patient Information</Title>
         <TextInput
           label="Full Name"
@@ -64,24 +87,38 @@ function Booking() {
         <Select
           label="Health Specialty"
           placeholder="Select health specialty"
-          data={['Dentist','Mid-Wife','Tharapist','Optician','Gynacologist','Cardiology', 'Dermatology', 'Orthopedics', 'Other']}
+          data={[
+            "Dentist",
+            "Mid-Wife",
+            "Therapist",
+            "Optician",
+            "Gynacologist",
+            "Cardiology",
+            "Dermatology",
+            "Orthopedics",
+            "Other",
+          ]}
           value={healthSpecialty}
           onChange={(value) => setHealthSpecialty(value)}
         />
 
-        {/* Additional booking form fields can be added as needed */}
+        { }
 
         <Button
+          type="submit"
           onClick={handleBooking}
-          style={{ marginTop: '20px' }}
-          color="blue"
+          className="bg-blue-900 m-auto"
           fullWidth
         >
           Book Appointment
         </Button>
       </Modal>
 
-      <Button onClick={open}>Book Now</Button>
+      <Button id="modal-button" onClick={open}>
+        Book Now
+      </Button>
+
+     
     </>
   );
 }
