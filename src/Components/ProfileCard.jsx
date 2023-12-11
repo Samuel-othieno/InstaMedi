@@ -1,12 +1,12 @@
-import { Card, Image, Text, Badge, Button, Group } from '@mantine/core';
+// import { Card, Image, Text, Badge, Button, Group } from '@mantine/core';
 
-function ProfileCard() {
-  return (
-    <>
+// function ProfileCard() {
+//   return (
+//     <>
     
-    </>
-  );
-}
+//     </>
+//   );
+// }
 
 
-export default ProfileCard;
+// export default ProfileCard;
