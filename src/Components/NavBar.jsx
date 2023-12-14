@@ -7,7 +7,7 @@ function NavBar() {
       <div id="nav-bar" className="flex justify-between items-center p-4 bg-gray-100">
 
         <div id="nav-logo" className="flex items-center">
-          <Link to='/'><img src=".\public\logo2.jpg" alt="InstaMedi's Logo" className="h-8" /></Link>
+          <Link to='/'><img src="./public/logo2.jpg" alt="InstaMedi's Logo" className="h-8" /></Link>
         </div>
 
         <div id="nav-links" className="hidden md:flex items-center space-x-4">
